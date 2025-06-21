@@ -1,1 +1,99 @@
-# bhushan_card
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .card {
+            background-color: white;
+            height: 460px;
+            width: 250px;
+            border-radius: 8px;
+        }
+
+        .image {
+            padding: 10px;
+        }
+
+        .image img {
+            border-radius: 9px;
+        }
+
+        .content {
+            padding: 7px 13px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .content h3 {
+            margin: 10px;
+            padding: 0px;
+        }
+
+        .content p {
+            font-size: 12px;
+            color: rgb(84, 84, 84);
+        }
+
+        .capsules {
+            padding: 0 28px 0 14px;
+        }
+
+        .capsules span {
+            border: 1px solid gray;
+            margin: 2px;
+            padding: 0px 6px;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button button {
+            padding: 7px 15px;
+            border-radius: 15px;
+            background-color: rgb(216, 236, 253);
+            color: rgb(14, 150, 234);
+            font-size: 10px;
+            margin-top: 7px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button button:hover {
+            background-color: rgb(194, 225, 246);
+            color: rgb(10, 136, 214);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image"> <img width="230" src="WhatsApp Image 2025-01-12 at 12.31.33_d7ee1a74.jpg" alt=""></div>
+        <div class="capsules">
+            <span>web developer</span>
+            <span>fire</span>
+        </div>
+        <div class="content">
+            <h3>Bhushan</h3>
+            <p>Hi, I'm Bhushan. I’ve recently completed my 12th and I’m currently studying Fire and Safety. I’m also
+                learning web development and can build basic websites. If you have any projects, I’d love to work on
+                them! free to visit my Instagram page just click on “View Profile.”</p>
+            <div class="button">
+                <a target="_blank" href="https://www.instagram.com/bhushan_patil_07__?igsh=bTRjdWF2YXd3N2Vp">
+                    <button>View profile</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
